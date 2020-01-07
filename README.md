@@ -10,7 +10,7 @@ Compiled programming language that works with preexisting Objective-C modules an
 - The `let` keyword declares a variable as a constant, which cannot be changed after it's value is assigned
 - camelCase is encouraged for Swift
 - No line ending symbol
--
+
 
 ```
 var currentHealth = 90
@@ -45,3 +45,19 @@ var inventoryItems, equipmentSlots, currentGold: Int
 ## Logging and Commenting
 
 Commenting your code is the first step to keeping it clean and organized., and the `print` statement is your best friend when it comes to testing that your code is working as expected.
+
+Single line comment = `//`
+
+Multi line comment = `/* */`
+
+```var antiHelloWorld = "We're not here..."
+```
+
+## String Interpolation
+
+```
+print("Hello \(2+3) World")
+```
+
+Anything between the characters `\()` will be interpolated into a string. 
+
